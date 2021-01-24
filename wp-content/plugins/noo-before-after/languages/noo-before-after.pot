@@ -1,0 +1,313 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Noo Before After\n"
+"POT-Creation-Date: 2020-10-14 15:20+0700\n"
+"PO-Revision-Date: 2018-10-26 14:28+0700\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: noo-before-after.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: class-noo-before-after-elementor.php:56
+#, php-format
+msgid "\"%1$s\" requires \"%2$s\" to be installed and activated."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+#: class-noo-before-after-elementor.php:57 functions/shortcode_map.php:13
+#: inc/elementor/noo_before_after_widget.php:13
+msgid "Noo Before After"
+msgstr ""
+
+#: class-noo-before-after-elementor.php:58
+msgid "Elementor"
+msgstr ""
+
+#: class-noo-before-after-elements.php:22
+#, php-format
+msgid "Wrong name for shortcode:%s. Name required"
+msgstr ""
+
+#: class-noo-before-after-elements.php:24
+#, php-format
+msgid "Wrong base for shortcode:%s. Base required"
+msgstr ""
+
+#: functions/functions.php:18
+msgid "Wrong ns_map object. Base attribute is required"
+msgstr ""
+
+#: functions/shortcode_map.php:7
+msgid "By NooTheme"
+msgstr ""
+
+#: functions/shortcode_map.php:21
+msgid "Items"
+msgstr ""
+
+#: functions/shortcode_map.php:26 inc/elementor/noo_before_after_widget.php:48
+msgid "Before Image"
+msgstr ""
+
+#: functions/shortcode_map.php:33
+msgid "Before Image Label (optional)"
+msgstr ""
+
+#: functions/shortcode_map.php:42 inc/elementor/noo_before_after_widget.php:67
+msgid "After Image"
+msgstr ""
+
+#: functions/shortcode_map.php:50
+msgid "After Image Label (optional)"
+msgstr ""
+
+#: functions/shortcode_map.php:59 inc/elementor/noo_before_after_widget.php:86
+msgid "Overlay Image"
+msgstr ""
+
+#: functions/shortcode_map.php:68 inc/elementor/noo_before_after_widget.php:107
+msgid "Width"
+msgstr ""
+
+#: functions/shortcode_map.php:76
+msgid "Comparison Direction"
+msgstr ""
+
+#: functions/shortcode_map.php:81 inc/elementor/noo_before_after_widget.php:119
+msgid "Horizontal"
+msgstr ""
+
+#: functions/shortcode_map.php:82 inc/elementor/noo_before_after_widget.php:120
+msgid "Vertical"
+msgstr ""
+
+#: functions/shortcode_map.php:88
+msgid "Comparison Type"
+msgstr ""
+
+#: functions/shortcode_map.php:93 inc/elementor/noo_before_after_widget.php:131
+msgid "Hover"
+msgstr ""
+
+#: functions/shortcode_map.php:94 inc/elementor/noo_before_after_widget.php:132
+msgid "Click"
+msgstr ""
+
+#: functions/shortcode_map.php:95 inc/elementor/noo_before_after_widget.php:133
+msgid "Drag"
+msgstr ""
+
+#: functions/shortcode_map.php:101
+msgid "Class"
+msgstr ""
+
+#: functions/shortcode_map.php:102
+msgid "(Optional) Enter a unique class name."
+msgstr ""
+
+#: functions/shortcode_map.php:109
+#: inc/elementor/noo_before_after_widget.php:154
+msgid "Offset"
+msgstr ""
+
+#: functions/shortcode_map.php:115 functions/shortcode_map.php:125
+#: inc/elementor/noo_before_after_widget.php:146
+msgid "Control Bar"
+msgstr ""
+
+#: functions/shortcode_map.php:120
+#: inc/elementor/noo_before_after_widget.php:173
+msgid "Color"
+msgstr ""
+
+#: functions/shortcode_map.php:130
+msgid "Item Per Slide (Desktop)"
+msgstr ""
+
+#: functions/shortcode_map.php:134 functions/shortcode_map.php:150
+#: functions/shortcode_map.php:166
+msgid "1 item"
+msgstr ""
+
+#: functions/shortcode_map.php:135 functions/shortcode_map.php:151
+#: functions/shortcode_map.php:167
+msgid "2 items"
+msgstr ""
+
+#: functions/shortcode_map.php:136 functions/shortcode_map.php:152
+#: functions/shortcode_map.php:168
+msgid "3 items"
+msgstr ""
+
+#: functions/shortcode_map.php:137 functions/shortcode_map.php:153
+#: functions/shortcode_map.php:169
+msgid "4 items"
+msgstr ""
+
+#: functions/shortcode_map.php:138 functions/shortcode_map.php:154
+#: functions/shortcode_map.php:170
+msgid "5 items"
+msgstr ""
+
+#: functions/shortcode_map.php:139 functions/shortcode_map.php:155
+#: functions/shortcode_map.php:171
+msgid "6 items"
+msgstr ""
+
+#: functions/shortcode_map.php:141 functions/shortcode_map.php:157
+#: functions/shortcode_map.php:173 functions/shortcode_map.php:182
+#: functions/shortcode_map.php:191 functions/shortcode_map.php:200
+#: functions/shortcode_map.php:209
+#: inc/elementor/noo_before_after_widget.php:192
+msgid "Slide Options"
+msgstr ""
+
+#: functions/shortcode_map.php:146
+msgid "Item Per Slide (Tablet - Breakpoint 1024px)"
+msgstr ""
+
+#: functions/shortcode_map.php:162
+msgid "Item Per Slide (Mobile - Breakpoint 768px)"
+msgstr ""
+
+#: functions/shortcode_map.php:178
+#: inc/elementor/noo_before_after_widget.php:217
+msgid "Loop"
+msgstr ""
+
+#: functions/shortcode_map.php:187
+#: inc/elementor/noo_before_after_widget.php:229
+msgid "Auto Height"
+msgstr ""
+
+#: functions/shortcode_map.php:196
+#: inc/elementor/noo_before_after_widget.php:241
+msgid "Auto Play"
+msgstr ""
+
+#: functions/shortcode_map.php:205
+#: inc/elementor/noo_before_after_widget.php:253
+msgid "Item Spacing"
+msgstr ""
+
+#: inc/elementor/noo_before_after_widget.php:38 templates/form.php:27
+msgid "General"
+msgstr ""
+
+#: inc/elementor/noo_before_after_widget.php:58
+msgid "Before Image Label"
+msgstr ""
+
+#: inc/elementor/noo_before_after_widget.php:60
+msgid "Before"
+msgstr ""
+
+#: inc/elementor/noo_before_after_widget.php:77
+msgid "After Image Label"
+msgstr ""
+
+#: inc/elementor/noo_before_after_widget.php:79
+msgid "After"
+msgstr ""
+
+#: inc/elementor/noo_before_after_widget.php:97
+msgid "Slide Items"
+msgstr ""
+
+#: inc/elementor/noo_before_after_widget.php:109
+#, php-format
+msgid "Example: 50% or 200px"
+msgstr ""
+
+#: inc/elementor/noo_before_after_widget.php:116
+msgid "Direction"
+msgstr ""
+
+#: inc/elementor/noo_before_after_widget.php:128
+msgid "Type"
+msgstr ""
+
+#: inc/elementor/noo_before_after_widget.php:202
+msgid "Item Per Slide"
+msgstr ""
+
+#: inc/elementor/noo_before_after_widget.php:205
+msgid "Default"
+msgstr ""
+
+#: inc/elementor/noo_before_after_widget.php:219
+#: inc/elementor/noo_before_after_widget.php:231
+#: inc/elementor/noo_before_after_widget.php:243
+msgid "Yes"
+msgstr ""
+
+#: inc/elementor/noo_before_after_widget.php:220
+#: inc/elementor/noo_before_after_widget.php:232
+#: inc/elementor/noo_before_after_widget.php:244
+msgid "No"
+msgstr ""
+
+#: inc/params/attach_images.php:34
+msgid "Add images"
+msgstr ""
+
+#: inc/params/attach_images.php:34
+msgid "Add image"
+msgstr ""
+
+#: inc/params/param_group.php:19 inc/params/param_group.php:67
+msgid "Drag row to reorder"
+msgstr ""
+
+#: inc/params/param_group.php:24 inc/params/param_group.php:72
+msgid "Delete this param"
+msgstr ""
+
+#: inc/params/param_group.php:27 inc/params/param_group.php:75
+msgid "Clone this row"
+msgstr ""
+
+#: inc/params/param_group.php:30 inc/params/param_group.php:78
+msgid "Toggle row"
+msgstr ""
+
+#: inc/params/param_group.php:70
+msgid "Item"
+msgstr ""
+
+#: templates/builder.php:18
+msgid "Close"
+msgstr ""
+
+#: templates/builder.php:19
+msgid "Save changes"
+msgstr ""
+
+#: templates/shortcode-list.php:14
+msgid "Insert shortcode"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "https://www.nootheme.com"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Add button create image comparison to TinyMCE."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "NooTheme"
+msgstr ""

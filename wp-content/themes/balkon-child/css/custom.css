@@ -1,0 +1,51 @@
+.admin-bar #main-theme,.admin-bar #main-theme header.balkon-header {top: 32px;}
+.admin-bar #main-theme .share-wrapper,.admin-bar #main-theme .fixed-search {top: 102px;}
+@media screen and (max-width:782px) {
+	.admin-bar #main-theme,.admin-bar #main-theme header.balkon-header {top: 46px;}
+    .admin-bar #main-theme .share-wrapper,.admin-bar #main-theme .fixed-search{top: 116px;}
+}
+@media screen and (max-width:600px) {
+	.admin-bar #main-theme{
+		top:0px;
+	}
+	.admin-bar #main-theme header.balkon-header {
+		position: relative;
+	}
+}
+.no-des {display: none;}
+.no-dis {display: none;}
+
+.gallery-lmore-holder,
+.folio-grid-lmore-holder {
+    float: left;
+    width: 100%;
+    position: relative;
+    display: block;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    text-align: center;
+    visibility: hidden;
+    -webkit-transition: all 300ms linear;
+    -moz-transition: all 300ms linear;
+    -o-transition: all 300ms linear;
+    -ms-transition: all 300ms linear;
+    transition: all 300ms linear;
+}
+.gallery-lmore-holder i,
+.folio-grid-lmore-holder i {
+    width: 40px;
+    height: 40px;
+    line-height: 36px;
+    border-radius: 100%;
+    margin: 0 auto;
+    border: 2px solid #eee;
+    background: #f9f9f9;
+    font-size: 18px;
+}
+.gallery-lmore-holder span,
+.folio-grid-lmore-holder span {
+    float: left;
+    width: 100%;
+    font-style: italic;
+    margin-top: 15px;
+}

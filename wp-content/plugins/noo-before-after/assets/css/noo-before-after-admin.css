@@ -1,0 +1,68 @@
+.noo-control input[type="text"].noo-slider {
+    display: inline-block;
+    width: 20%;
+}
+.noo-control .ui-slider.ui-slider-horizontal {
+    display: inline-block;
+    width: 75%;
+    margin-left: 3%;
+}
+.noo-control .ui-slider-horizontal {
+    height: .8em;
+}
+.noo-control .ui-widget-content {
+    background: #efefef;
+    border-radius: 0;
+    border: none;
+}
+.noo-control .ui-slider.ui-widget-content .ui-widget-header {
+    background: #47bfa9 !important;
+    color: #ffffff;
+    font-weight: bold;
+}
+.noo-control .ui-slider-horizontal .ui-slider-range-min {
+    left: 0 !important;
+}
+.noo-control .ui-slider-horizontal .ui-slider-range {
+    top: 0;
+    height: 100%;
+}
+.noo-control .ui-slider .ui-slider-range {
+    position: absolute;
+    z-index: 1;
+    font-size: .7em;
+    display: block;
+    border: 0;
+    background-position: 0 0;
+}
+.ui-slider .ui-slider-range {
+    position: absolute;
+    z-index: 1;
+    font-size: .7em;
+    display: block;
+    border: 0;
+    background-position: 0 0;
+}
+.noo-control .ui-slider {
+    position: relative;
+    text-align: left;
+}
+.noo-control .ui-state-default,
+.noo-control .ui-widget-content .ui-state-default,
+.noo-control .ui-widget-header .ui-state-default {
+    border: 1px solid #cccccc;
+    background: #f6f6f6;
+    font-weight: bold;
+    color: #1c94c4;
+}
+.noo-control .ui-slider-horizontal .ui-slider-handle {
+    top: -.3em;
+    margin-left: -.6em;
+}
+.noo-control .ui-slider .ui-slider-handle {
+    position: absolute;
+    z-index: 2;
+    width: 1.2em;
+    height: 1.2em;
+    cursor: default;
+}

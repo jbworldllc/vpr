@@ -1,0 +1,178 @@
+
+.noo-inner {
+    position: relative;
+    overflow: hidden;
+}
+
+.noo-inner img {
+    width: 100%;
+    max-width: none;
+    display:block;
+    -webkit-transition: none;
+    -moz-transition: none;
+    -ms-transition: none;
+    -o-transition: none;
+    transition: none;
+}
+
+.noo-before-wrap {
+    position: absolute;
+    top:0;
+    left: 0;
+    height: 100%;
+    width: 50%;
+    overflow: hidden;
+}
+
+ /* Thin line seperator */
+.noo-slider {
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -20px;
+    margin-top: -20px;
+    border: 3px solid white;
+    -webkit-border-radius: 1000px;
+    -moz-border-radius: 1000px;
+    border-radius: 1000px;
+    -webkit-box-shadow: 0px 0px 6px rgba(51, 51, 51, 0.5);
+    -moz-box-shadow: 0px 0px 6px rgba(51, 51, 51, 0.5);
+    box-shadow: 0px 0px 6px rgba(51, 51, 51, 0.5);
+    z-index: 40;
+    cursor: pointer;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    flex-direction: row;
+}
+.noo-slider:before, .noo-slider:after {
+    content: " ";
+    display: block;
+    background: white;
+    position: absolute;
+    z-index: 30;
+    width: 3px;
+    height: 9999px;
+    left: calc(50% - 1.5px);
+}
+.noo-slider:before {
+    bottom: calc(100% + 3px);
+}
+.noo-slider:after {
+    top: calc(100% + 3px);
+}
+.noo-slider svg {
+    width: 18px;
+    height: 34px;
+    fill: #fff;
+}
+.nba-vertical .noo-slider::before,
+.nba-vertical .noo-slider::after {
+    width: 9999px;
+    height: 3px;
+    left: auto;
+    top: calc(50% - 1.5px);
+}
+.nba-vertical .noo-slider::before {
+    right: calc(100% + 3px);
+    bottom: auto;
+}
+.nba-vertical .noo-slider::after {
+    left: calc(100% + 3px);
+}
+.nba-vertical .noo-slider {
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+}
+.nba-vertical .noo-slider > div {
+    height: 18px;
+}
+.nba-vertical .noo-slider svg {
+    height: 18px;
+    display: block;
+}
+.nba-vertical .noo-before-wrap {
+    width: 100%;
+    height: 50%;
+}
+.noo-inner img.nba-before-img {
+    display: block;
+    position: absolute;
+    z-index: 20;
+    width: 100%;
+    max-width: 100%;
+    top: 0px;
+}
+.nba-overimage {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background-size: contain;
+    background-position-x: left;
+    background-position-y: top;
+    background-repeat: no-repeat;
+}
+.noo-inner:hover .nba-overimage{
+    z-index: 21 ;
+}
+.noo-labels > div {
+    background: rgba(0,0,0,.6);
+    color: #fff;
+    position: absolute;
+    padding: 5px 15px;
+    z-index: 22;
+    border-radius: 4px;
+}
+.noo-labels .noo-before-label {
+    left: 10px;
+    bottom: 10px;
+}
+.noo-labels .noo-after-label {
+    right: 10px;
+    bottom: 10px;
+}
+.nba-vertical .noo-labels .noo-before-label {
+    bottom: auto;
+    top: 10px;
+}
+.nba-vertical .noo-labels .noo-after-label {
+    left: 10px;
+    right: auto;
+}
+.noo-before-after-slideshow-wrapper .slick-arrow {
+    bottom: -20px;
+    top: auto;
+    z-index: 10;
+    left: auto;
+    transform: none;
+    right: 25px;
+}
+.noo-before-after-slideshow-wrapper .slick-arrow.slick-next {
+    right: 0;
+}
+.noo-before-after-slideshow-wrapper .slick-prev::before,
+.noo-before-after-slideshow-wrapper .slick-next::before {
+    font-size: 22px;
+    color: #6b6b6b
+}
+.noo-before-after-slideshow-wrapper .slick-dots {
+    float: left;
+    width: auto;
+    bottom: -20px;
+    z-index: 9;
+}
+.noo-before-after-slideshow-wrapper .slick-dots li {
+    display: block;
+    float: left;
+    margin: 0 3px;
+}
+.noo-before-after-slideshow-wrapper .slick-dots li button::before {
+    font-size: 8px;
+}
+.noo-inner:hover {
+    cursor: pointer;
+}

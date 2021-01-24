@@ -1,0 +1,117 @@
+
+---Downloaded files---
+The import files for: Balkon theme - Full Demo Content (widgets included) were successfully downloaded!
+Initial max execution time = 30
+Files info:
+Site URL = http://vpr.test
+Data file = /Users/jbworld/Projects/Sites/vpr/wp-content/themes/balkon/includes/demo_data_files/all-content.xml
+Widget file = /Users/jbworld/Projects/Sites/vpr/wp-content/themes/balkon/includes/demo_data_files/widgets.wie
+Customizer file = not defined!
+Redux files:
+balkon_options -> /Users/jbworld/Projects/Sites/vpr/wp-content/themes/balkon/includes/demo_data_files/redux_options_balkon_options.json 
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+---Importing widgets---
+orphaned_widgets_1 : Sidebar does not exist in theme (moving widget to Inactive)
+
+Search - No Title - Imported to Inactive
+Recent Posts - No Title - Imported to Inactive
+Recent Comments - No Title - Imported to Inactive
+Archives - No Title - Imported to Inactive
+Categories - No Title - Imported to Inactive
+Meta - No Title - Imported to Inactive
+
+Main Sidebar : 
+
+Search - -span-01.-span- Search - Imported
+Balkon Author - -span-02.-span- About Autor - Imported
+Balkon Recent Posts - -span-03.-span- Last Posts - Imported
+Tag Cloud - -span-04.-span- Tags - Imported
+Balkon Instagram - -span-05.-span- Our Instagram - Imported
+Categories - -span-06.-span- Categories - Imported
+
+Page Sidebar : 
+
+Search - -span-01.-span- Search - Imported
+Balkon Author - -span-02.-span- About Autor - Imported
+Balkon Recent Posts - -span-03.-span- Last Posts - Imported
+Tag Cloud - -span-04.-span- Tags - Imported
+Balkon Instagram - -span-05.-span- Our Instagram - Imported
+Categories - -span-06.-span- Categories - Imported
+
+Logo Footer widget  : 
+
+Image - No Title - Imported
+
+Contact Footer widget  : 
+
+Text - -span-01.-span- Contacts - Imported
+
+Newsletter Footer widget  : 
+
+Text - -span-02.-span- Subscribe - Imported
+
+
+
+---Importing Redux settings---
+Redux settings import for: balkon_options finished successfully!

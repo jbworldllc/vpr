@@ -1,0 +1,87 @@
+#setting-error-tgmpa {
+  max-width: 100%;
+  display: block; }
+
+.content p img, .content img {
+  max-width: 100%;
+  height: auto; }
+
+.redux-message.is-dismissible {
+  display: none; }
+
+.cth-addons-pane {
+  padding-top: 30px;
+  display: none; }
+  .cth-addons-pane.current {
+    display: block; }
+
+.balkon-ele-attach-thumb {
+  max-width: 50px;
+  height: auto;
+  margin: 3px; }
+
+.column-_id {
+  width: 10%; }
+
+.column-_thumbnail, .column-_rating {
+  width: 15%; }
+
+.post-type-member #excerpt {
+  /*height: 20em;*/
+  background: #efefef; }
+
+.post-type-portfolio #excerpt {
+  height: 10em;
+  background: #efefef; }
+
+.post-type-service #excerpt {
+  height: 10em;
+  background: #efefef; }
+
+.balkon_author_upload_image_button {
+  margin-top: 10px !important; }
+
+/*!
+ *  Font Awesome 4.6.3 by @davegandy - http://fontawesome.io - @fontawesome
+ *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
+ */
+/* FONT PATH
+ * -------------------------- */
+@font-face {
+  font-family: 'TestimFontAwesome';
+  src: url("../fonts/fontawesome/fontawesome-webfont.eot?v=4.6.3");
+  src: url("../fonts/fontawesome/fontawesome-webfont.eot?#iefix&v=4.6.3") format("embedded-opentype"), url("../fonts/fontawesome/fontawesome-webfont.woff2?v=4.6.3") format("woff2"), url("../fonts/fontawesome/fontawesome-webfont.woff?v=4.6.3") format("woff"), url("../fonts/fontawesome/fontawesome-webfont.ttf?v=4.6.3") format("truetype"), url("../fonts/fontawesome/fontawesome-webfont.svg?v=4.6.3#fontawesomeregular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+.testimfa {
+  display: inline-block;
+  font: normal normal normal 14px/1 TestimFontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+.testimfa-star:before {
+  content: "\f005"; }
+
+.testimfa-star-o:before {
+  content: "\f006"; }
+
+.testimfa-star-half:before {
+  content: "\f089"; }
+
+.testimfa-star-half-empty:before, .testimfa-star-half-full:before, .testimfa-star-half-o:before {
+  content: "\f123"; }
+
+.column-_rating ul.star-rating {
+  float: left;
+  width: 100%;
+  margin: 10px 0 20px 0; }
+
+.column-_rating ul.star-rating li {
+  display: inline-block;
+  font-size: 14px; }
+
+.column-_rating ul.star-rating li i {
+  color: #BB9167; }

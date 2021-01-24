@@ -1,0 +1,5 @@
+.for-no-header-icon {
+  padding-top: 280px; }
+
+.single-header-icon + .for-no-header-icon {
+  padding-top: 0; }
