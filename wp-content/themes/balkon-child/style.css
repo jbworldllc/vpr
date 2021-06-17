@@ -13,3 +13,15 @@ License URI: http://www.gnu.org/licenses/gpl-3.0.html
 */
 /* =Theme customization starts here
 ------------------------------------------------------- */
+
+.head-sec-title, section.header-section h2 {
+    font-size: 4rem !important;
+}
+
+.services {
+	color:#fff !important;
+}
+
+.services p{
+	color:#fff !important;
+}
